@@ -134,7 +134,7 @@ ol {
 }
 
 .spad {
-  padding-top: 164px;;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -389,16 +389,18 @@ ol {
 
 .header__logo {
   position: absolute;
-  left: 50%;
-  top: 25px;
-  margin-left: -60px;
+  padding: 5px;
+  background-color: #FFF6A0;
+  border-radius: 20px 
 }
 .header__logo a {
   display: inline-block;
 }
 
 .header__top__right {
-  float: right;
+  top: 20px;
+    position: absolute;
+    right: 0;
 }
 
 .header__top__right__links {
@@ -529,7 +531,7 @@ ol {
   Hero
 -----------------------*/
 .hero{
-  margin-top: 164px;
+  margin-top: 62px;
 }
 .hero__item {
   height: 700px;
@@ -1301,6 +1303,8 @@ ol {
   Breadcrumb
 -----------------------*/
 .breadcrumb-option {
+  margin-top: 62px;
+
   padding-top: 60px;
 }
 
@@ -3382,8 +3386,8 @@ ol {
     border-radius: 2px;
     cursor: pointer;
     position: absolute;
-    right: 15px;
-    top: 34px;
+    right: 0%;
+    top: 16px;
   }
 
   .offcanvas-menu-overlay {
@@ -3593,7 +3597,9 @@ ol {
   .offcanvas__cart__item .cart__price span {
     color: #111111;
   }
-
+.header {
+  background-color: #fff;
+}
   .header__top__left {
     display: none;
   }
@@ -3607,6 +3613,9 @@ ol {
     left: 0;
     top: 0;
     margin-left: 0;
+    width: 35%;
+    background-color: #fff;
+    text-align: center;
   }
 
   .header__top__inner {
