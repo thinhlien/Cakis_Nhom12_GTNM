@@ -308,11 +308,15 @@ ol {
   Header
 -----------------------*/
 .header {
-  background: #f08632;
+  background: #f08632; 
+  width: 100%;
+  z-index: 6;
+  position: fixed;
+  top: 0;
 }
 
 .header__top {
-  position: relative;
+ 
   background: #ffffff;
 }
 
@@ -524,6 +528,9 @@ ol {
 /*---------------------
   Hero
 -----------------------*/
+.hero{
+  margin-top: 164px;
+}
 .hero__item {
   height: 700px;
   display: -webkit-box;
